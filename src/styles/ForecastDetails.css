@@ -1,0 +1,6 @@
+.forecast-details {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+}
