@@ -12,6 +12,7 @@ describe("ForecastSummaries", () => {
         max: 22,
         min: 12,
       },
+      onForecastSelect: () => {},
     },
     {
       date: 2222222,
@@ -21,6 +22,7 @@ describe("ForecastSummaries", () => {
         max: 24,
         min: 13,
       },
+      onForecastSelect: () => {},
     },
   ];
 
