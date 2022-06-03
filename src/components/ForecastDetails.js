@@ -7,22 +7,22 @@ function ForecastDetails({ forecasts }) {
   const formattedDate = new Date(date).toDateString();
   return (
     <div className="forecast-details">
-      <div className="forecast-details_date">
-        <b>{formattedDate}</b>
+      <div className="forecast-details__date">{formattedDate}</div>
+      <div className="forecast-details__max-temperature">
+        Max Temperature: {temperature.max}&deg;C
       </div>
-      <div className="forecast-details_max-temperature">
-        Max Temperature: {temperature.max}&deg;c
+      <div className="forecast-details__min-temperature">
+        Min Temperature: {temperature.min}&deg;C
       </div>
-      <div className="forecast-details_min-temperature">
-        Min Temperature: {temperature.min}&deg;c
-      </div>
-      <div className="forecast-details_humidity">Humidity: {humidity}%</div>
-      <div className="forecast-details_wind">
+      <div className="forecast-details__humidity">Humidity: {humidity}%</div>
+      <div className="forecast-details__wind">
         Wind: {wind.speed}mph {wind.direction}
       </div>
     </div>
   );
 }
+
+export default ForecastDetails;
 
 ForecastDetails.propTypes = {
   forecasts: PropTypes.shape({
@@ -38,5 +38,3 @@ ForecastDetails.propTypes = {
     }),
   }).isRequired,
 };
-
-export default ForecastDetails;

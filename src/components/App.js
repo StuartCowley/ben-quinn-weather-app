@@ -9,11 +9,13 @@ function App({ location, forecasts }) {
   return (
     <div className="weather-app">
       <LocationDetails city={location.city} country={location.country} />
-      <ForecastSummaries forecast={forecasts} />
+      <ForecastSummaries forecasts={forecasts} />
       <ForecastDetails forecasts={forecasts[0]} />
     </div>
   );
 }
+
+export default App;
 
 App.propTypes = {
   forecasts: PropTypes.arrayOf(
@@ -32,5 +34,3 @@ App.propTypes = {
     country: PropTypes.string,
   }).isRequired,
 };
-
-export default App;
