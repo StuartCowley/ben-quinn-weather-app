@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function LocationDetails(props) {
-  const { city, country, errorMessage } = props;
+function LocationDetails({ city, country, errorMessage }) {
   return errorMessage ? (
     <h1>{errorMessage}</h1>
   ) : (
