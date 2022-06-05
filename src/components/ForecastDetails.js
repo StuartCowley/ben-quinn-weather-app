@@ -7,9 +7,7 @@ function ForecastDetails({ forecasts }) {
   const formattedDate = new Date(date).toDateString();
   return (
     <div className="forecast-details">
-      <div className="forecast-details__date">
-        <b>{formattedDate}</b>
-      </div>
+      <div className="forecast-details__date">{formattedDate}</div>
       <div className="forecast-details__max-temperature">
         <b>Max Temperature:</b> {temperature.max}&deg;C
       </div>

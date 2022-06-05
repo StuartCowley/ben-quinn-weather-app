@@ -24,7 +24,7 @@ describe("ForecastDetails", () => {
   it("renders correct values for props", () => {
     const { getByText } = render(<ForecastDetails forecasts={validProps} />);
 
-    expect(getByText("Thu Jan 01 1970")).toHaveClass("forecast-details__date");
+    expect(getByText(/Thu Jan 01 1970/i)).toHaveClass("forecast-details__date");
     expect(getByText(/12°C/)).toHaveClass("forecast-details__min-temperature");
     expect(getByText(/22°C/)).toHaveClass("forecast-details__max-temperature");
     expect(getByText(/90%/)).toHaveClass("forecast-details__humidity");

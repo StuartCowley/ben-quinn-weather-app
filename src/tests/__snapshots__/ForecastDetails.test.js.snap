@@ -13,22 +13,34 @@ exports[`ForecastDetails renders correctly 1`] = `
     <div
       class="forecast-details__max-temperature"
     >
-      Max Temperature: 22°C
+      <b>
+        Max Temperature:
+      </b>
+       22°C
     </div>
     <div
       class="forecast-details__min-temperature"
     >
-      Min Temperature: 12°C
+      <b>
+        Min Temperature:
+      </b>
+       12°C
     </div>
     <div
       class="forecast-details__humidity"
     >
-      Humidity: 90%
+      <b>
+        Humidity:
+      </b>
+       90%
     </div>
     <div
       class="forecast-details__wind"
     >
-      Wind: 10mph s
+      <b>
+        Wind:
+      </b>
+       10mph s
     </div>
   </div>
 </DocumentFragment>
