@@ -10,6 +10,10 @@ A simple UK weather app made using React.
 - CSS
 - JavaScript
 
+## Open on the browser
+
+Deployed on GitHub Pages at [https://benjquinn.github.io/weather-app/] (https://benjquinn.github.io/weather-app/).
+
 ## Get Started On Your Local Machine
 
 Clone this repository and run:

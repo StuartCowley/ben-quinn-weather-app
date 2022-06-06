@@ -5,7 +5,7 @@ import moment from "moment";
 
 function ForecastDetails({ forecasts }) {
   const { date, temperature, humidity, wind } = forecasts;
-  const formattedDate = moment(date).format("MMMM Do YYYY");
+  const formattedDate = moment(date).format("dddd MMMM Do YYYY");
 
   return (
     <div className="forecast-details">
