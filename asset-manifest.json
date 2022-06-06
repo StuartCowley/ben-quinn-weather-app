@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24a8554f.css",
-    "main.js": "/static/js/main.aca782f2.js",
+    "main.js": "/static/js/main.d59709cd.js",
     "static/media/sunny.jpg": "/static/media/sunny.bf2bebf1c913c40a8776.jpg",
     "static/media/weathericons-regular-webfont.svg": "/static/media/weathericons-regular-webfont.1341a15172cec8dae06e.svg",
     "static/media/weathericons-regular-webfont.eot": "/static/media/weathericons-regular-webfont.bb2ec001c20cf752f852.eot",
@@ -10,10 +10,10 @@
     "static/media/weathericons-regular-webfont.woff2": "/static/media/weathericons-regular-webfont.e218aee6928fe3da9ed6.woff2",
     "index.html": "/index.html",
     "main.24a8554f.css.map": "/static/css/main.24a8554f.css.map",
-    "main.aca782f2.js.map": "/static/js/main.aca782f2.js.map"
+    "main.d59709cd.js.map": "/static/js/main.d59709cd.js.map"
   },
   "entrypoints": [
     "static/css/main.24a8554f.css",
-    "static/js/main.aca782f2.js"
+    "static/js/main.d59709cd.js"
   ]
 }
