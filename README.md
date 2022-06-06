@@ -12,7 +12,7 @@ A simple UK weather app made using React.
 
 ## Open on the browser
 
-Deployed on GitHub Pages at [https://benjquinn.github.io/weather-app/] (https://benjquinn.github.io/weather-app/).
+Deployed on GitHub Pages at [https://benjquinn.github.io/weather-app/]
 
 ## Get Started On Your Local Machine
 
