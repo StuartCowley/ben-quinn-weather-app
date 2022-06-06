@@ -9,7 +9,7 @@ exports[`ForecastSummary renders correctly 1`] = `
     <div
       class="forecast-summary__date"
     >
-      Thu Jan 01 1970
+      Thu
     </div>
     <div
       class="forecast-summary__icon"
@@ -31,6 +31,7 @@ exports[`ForecastSummary renders correctly 1`] = `
       Stub description
     </div>
     <button
+      class="forecast-summary__button"
       type="button"
     >
       More details

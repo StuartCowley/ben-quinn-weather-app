@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "../styles/SearchForm.css";
 
 function SearchForm({ searchText, setSearchText, onSubmit }) {
   const handleInputChange = (event) => {
@@ -12,6 +13,7 @@ function SearchForm({ searchText, setSearchText, onSubmit }) {
         className="search-form__input"
         data-testid="search-form__input"
         type="text"
+        placeholder="Enter city..."
         onChange={handleInputChange}
         value={searchText}
       />
@@ -21,7 +23,9 @@ function SearchForm({ searchText, setSearchText, onSubmit }) {
         type="submit"
         onClick={onSubmit}
       >
-        Search
+        <span className="material-icons" data-testid="search-form__icon">
+          search
+        </span>
       </button>
     </div>
   );

@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "../styles/ForecastDetails.css";
+import moment from "moment";
 
 function ForecastDetails({ forecasts }) {
   const { date, temperature, humidity, wind } = forecasts;
-  const formattedDate = new Date(date).toDateString();
+  const formattedDate = moment(date).format("MMMM Do YYYY");
 
   return (
     <div className="forecast-details">

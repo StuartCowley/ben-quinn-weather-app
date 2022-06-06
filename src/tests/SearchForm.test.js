@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "@testing-library/react";
+import { getByText, render } from "@testing-library/react";
 import SearchForm from "../components/SearchForm";
 
 describe("SearchForm", () => {
@@ -21,16 +21,17 @@ describe("SearchForm", () => {
   });
 
   it("Renders button with correct text", () => {
-    const { getByText } = render(
+    const { getByTestId } = render(
       <SearchForm
         setSearchText={validProps.setSearchText}
         onSubmit={validProps.handleCitySearch}
         searchText={validProps.searchText}
       />
     );
-    const button = getByText(/search/i);
+    const button = getByTestId("search-form__button");
+    const icon = getByTestId("search-form__icon");
 
-    expect(button).toHaveClass("search-form__button");
+    expect(button).toContainElement(icon);
     expect(button).toHaveAttribute("type", "submit");
   });
 

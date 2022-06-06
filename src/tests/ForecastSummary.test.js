@@ -39,7 +39,7 @@ describe("ForecastSummary", () => {
       />
     );
 
-    expect(getByText(/Thu Jan 01 1970/i)).toHaveClass("forecast-summary__date");
+    expect(getByText(/Thu/i)).toHaveClass("forecast-summary__date");
     expect(getByText("Stub description")).toHaveClass(
       "forecast-summary__description"
     );

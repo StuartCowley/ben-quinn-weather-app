@@ -1,6 +1,10 @@
 .forecast-details {
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.forecast-details__date {
+  font-size: 2em;
+  font-weight: bold;
 }

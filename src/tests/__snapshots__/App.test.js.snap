@@ -14,6 +14,7 @@ exports[`App renders correctly 1`] = `
       <input
         class="search-form__input"
         data-testid="search-form__input"
+        placeholder="Enter city..."
         type="text"
         value=""
       />
@@ -22,7 +23,12 @@ exports[`App renders correctly 1`] = `
         data-testid="search-form__button"
         type="submit"
       >
-        Search
+        <span
+          class="material-icons"
+          data-testid="search-form__icon"
+        >
+          search
+        </span>
       </button>
     </div>
     <div
