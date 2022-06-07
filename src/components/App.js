@@ -5,6 +5,10 @@ import LocationDetails from "./LocationDetails";
 import ForecastSummaries from "./ForecastSummaries";
 import ForecastDetails from "./ForecastDetails";
 import SearchForm from "./SearchForm";
+import cloudsImg from "../images/mild.jpg";
+import clearImg from "../images/clear.jpg";
+import rainImg from "../images/rain.jpg";
+import snowImg from "../images/snow.jpg";
 
 function App() {
   const [forecasts, setForecasts] = useState([]);
@@ -41,8 +45,47 @@ function App() {
     );
   };
 
+  const handleBackgroundImg = (weather) => {
+    if (weather === "Rain") {
+      return {
+        backgroundImage: `url(${rainImg})`,
+        backgroundSize: "cover",
+        backgroundAttachment: "scroll",
+      };
+    }
+    if (weather === "Clouds") {
+      return {
+        backgroundImage: `url(${cloudsImg})`,
+        backgroundSize: "cover",
+        backgroundAttachment: "scroll",
+      };
+    }
+    if (weather === "Clear") {
+      return {
+        backgroundImage: `url(${clearImg})`,
+        backgroundSize: "cover",
+        backgroundAttachment: "scroll",
+      };
+    }
+    if (weather === "Snow") {
+      return {
+        backgroundImage: `url(${snowImg})`,
+        backgroundSize: "cover",
+        backgroundAttachment: "scroll",
+      };
+    }
+    return {
+      backgroundImage: `url(${cloudsImg})`,
+      backgroundSize: "cover",
+      backgroundAttachment: "scroll",
+    };
+  };
+
   return (
-    <div className="weather-app">
+    <div
+      className="weather-app"
+      style={handleBackgroundImg(selectedForecast?.description)}
+    >
       <LocationDetails
         city={location.city}
         country={location.country}

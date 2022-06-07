@@ -2,14 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;800&display=swap");
 
 body {
-  margin: 0;
+  margin-bottom: 0;
   border: 0;
   font-family: "Nunito", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("../images/mild.jpg");
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #eceef1;
 }
 
 code {
