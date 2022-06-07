@@ -27,5 +27,7 @@
 @media screen and (max-width: 390px) {
   .weather-app {
     height: 310vw;
+    background-attachment: fixed;
+    background-size: cover;
   }
 }
