@@ -23,3 +23,9 @@
     height: 250vw;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .weather-app {
+    height: 310vw;
+  }
+}
