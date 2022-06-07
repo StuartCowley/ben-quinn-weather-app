@@ -50,34 +50,25 @@ function App() {
       return {
         backgroundImage: `url(${rainImg})`,
         backgroundSize: "cover",
-        backgroundAttachment: "scroll",
       };
     }
     if (weather === "Clouds") {
       return {
         backgroundImage: `url(${cloudsImg})`,
-        backgroundSize: "cover",
-        backgroundAttachment: "scroll",
       };
     }
     if (weather === "Clear") {
       return {
         backgroundImage: `url(${clearImg})`,
-        backgroundSize: "cover",
-        backgroundAttachment: "scroll",
       };
     }
     if (weather === "Snow") {
       return {
         backgroundImage: `url(${snowImg})`,
-        backgroundSize: "cover",
-        backgroundAttachment: "scroll",
       };
     }
     return {
       backgroundImage: `url(${cloudsImg})`,
-      backgroundSize: "cover",
-      backgroundAttachment: "scroll",
     };
   };
 
