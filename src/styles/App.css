@@ -1,6 +1,4 @@
 .weather-app {
-  background-image: url("../images/sunny.jpg");
-  background-size: cover;
   margin: 0;
   height: 100vh;
 }
