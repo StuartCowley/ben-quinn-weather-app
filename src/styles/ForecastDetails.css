@@ -1,0 +1,11 @@
+.forecast-details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.forecast-details__date {
+  font-size: 2em;
+  font-weight: bold;
+}

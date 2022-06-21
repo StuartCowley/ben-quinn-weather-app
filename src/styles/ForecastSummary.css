@@ -1,0 +1,28 @@
+.forecast-summary {
+  font-size: 1.5em;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.forecast-summary__date {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 12px;
+}
+
+.forecast-summary__button {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.7em;
+  font-weight: bolder;
+}
+
+.forecast-summary__button:hover {
+  border-bottom: 2px solid black;
+}
+
+.forecast-summary__icon {
+  font-size: 2.5em;
+}

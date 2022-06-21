@@ -1,0 +1,23 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  background: transparent;
+  border: 0;
+  border-bottom: 3px solid black;
+  width: 200px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.search-form__button {
+  margin-left: 10px;
+  border: 2px;
+  background: transparent;
+}
